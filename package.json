@@ -1,0 +1,31 @@
+{
+  "name": "polymer-platform",
+  "description": "UMD build of the Polymer platform",
+  "version": "0.3.5",
+  "author": "Polymer Authors",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "polymer-weakmap": "git+https://github.com/tachyon1337/WeakMap.git",
+    "polymer-url": "git+https://github.com/tachyon1337/URL.git",
+    "polymer-shadowdom": "git+https://github.com/tachyon1337/ShadowDOM.git",
+    "polymer-pointergestures": "git+https://github.com/tachyon1337/PointerGestures.git",
+    "polymer-pointerevents": "git+https://github.com/tachyon1337/PointerEvents.git",
+    "polymer-mutationobservers": "git+https://github.com/tachyon1337/MutationObservers.git",
+    "polymer-htmlimports": "git+https://github.com/tachyon1337/HTMLImports.git",
+    "polymer-customelements": "git+https://github.com/tachyon1337/CustomElements.git",
+    "observe-js": "git+https://github.com/tachyon1337/observe-js.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-util": "^2.2.14",
+    "gulp-concat": "^2.2.0",
+    "gulp-tap": "^0.1.1",
+    "fs-extra": "^0.8.1",
+    "gulp-uglify": "^0.2.1",
+    "merge-stream": "^0.1.5"
+  }
+}
