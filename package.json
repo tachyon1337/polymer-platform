@@ -1,12 +1,12 @@
 {
   "name": "polymer-platform",
   "description": "UMD build of the Polymer platform",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "author": "Polymer Authors",
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tachyon1337/polymer-platform.git"
   },
   "dependencies": {
     "polymer-weakmap": "git+https://github.com/tachyon1337/WeakMap.git",
